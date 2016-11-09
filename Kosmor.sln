@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceAndTravelTimeCalculator", "DistanceAndTravelTimeCalculator\DistanceAndTravelTimeCalculator.csproj", "{B856B9EB-A5C0-46B4-9C36-0A93762011BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KosmorShipCounter", "KosmorShipCounter\KosmorShipCounter.csproj", "{56943F7B-89AA-4CEE-9FC7-EC8675462751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KosmorMapTool", "KosmorMapTool\KosmorMapTool.csproj", "{B1D90EB0-BD1C-4C08-9651-3897E6A40D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KosmorNewsParser", "KosmorNewsParser\KosmorNewsParser.csproj", "{E659FDEB-D2E6-4B5C-8C26-7001728550CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgToCsvConverter", "SvgToCsvConverter\SvgToCsvConverter.csproj", "{8A26B43F-A107-4177-97CF-BA54043FB9CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B856B9EB-A5C0-46B4-9C36-0A93762011BB}.Debug|x86.ActiveCfg = Debug|x86
+		{B856B9EB-A5C0-46B4-9C36-0A93762011BB}.Debug|x86.Build.0 = Debug|x86
+		{B856B9EB-A5C0-46B4-9C36-0A93762011BB}.Release|x86.ActiveCfg = Release|x86
+		{B856B9EB-A5C0-46B4-9C36-0A93762011BB}.Release|x86.Build.0 = Release|x86
+		{56943F7B-89AA-4CEE-9FC7-EC8675462751}.Debug|x86.ActiveCfg = Debug|x86
+		{56943F7B-89AA-4CEE-9FC7-EC8675462751}.Debug|x86.Build.0 = Debug|x86
+		{56943F7B-89AA-4CEE-9FC7-EC8675462751}.Release|x86.ActiveCfg = Release|x86
+		{56943F7B-89AA-4CEE-9FC7-EC8675462751}.Release|x86.Build.0 = Release|x86
+		{B1D90EB0-BD1C-4C08-9651-3897E6A40D44}.Debug|x86.ActiveCfg = Debug|x86
+		{B1D90EB0-BD1C-4C08-9651-3897E6A40D44}.Debug|x86.Build.0 = Debug|x86
+		{B1D90EB0-BD1C-4C08-9651-3897E6A40D44}.Release|x86.ActiveCfg = Release|x86
+		{B1D90EB0-BD1C-4C08-9651-3897E6A40D44}.Release|x86.Build.0 = Release|x86
+		{E659FDEB-D2E6-4B5C-8C26-7001728550CB}.Debug|x86.ActiveCfg = Debug|x86
+		{E659FDEB-D2E6-4B5C-8C26-7001728550CB}.Debug|x86.Build.0 = Debug|x86
+		{E659FDEB-D2E6-4B5C-8C26-7001728550CB}.Release|x86.ActiveCfg = Release|x86
+		{E659FDEB-D2E6-4B5C-8C26-7001728550CB}.Release|x86.Build.0 = Release|x86
+		{8A26B43F-A107-4177-97CF-BA54043FB9CC}.Debug|x86.ActiveCfg = Debug|x86
+		{8A26B43F-A107-4177-97CF-BA54043FB9CC}.Debug|x86.Build.0 = Debug|x86
+		{8A26B43F-A107-4177-97CF-BA54043FB9CC}.Release|x86.ActiveCfg = Release|x86
+		{8A26B43F-A107-4177-97CF-BA54043FB9CC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="KosmorShipCounter.Shipcounter"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             x:Name="shipCounter"
+             d:DesignHeight="500" d:DesignWidth="800"
+            >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="9*"></RowDefinition>
+            <RowDefinition Height="1*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox Name="postShipListHere" Grid.Column="0" Grid.Row="0" TextWrapping="NoWrap" AcceptsReturn="True" ToolTip="Post ship list here"></TextBox>
+        <TextBox Name="postResultHere" IsReadOnly="True" Grid.Column="1" Grid.Row="0" TextWrapping="Wrap" AcceptsReturn="True" ToolTip="Result will appear here"></TextBox>
+        <Button Name="btCalculate" Grid.Column="0" Grid.Row="1" Click="calculate_Click" ToolTip="click to get the result">calculate</Button>
+        <CheckBox Name="checkBoxBattleReport" IsChecked="{Binding IsCheckBoxChecked}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" ToolTip="Check this if you want to use a combat report as source">from combat report</CheckBox>
+    </Grid>
+</UserControl>
