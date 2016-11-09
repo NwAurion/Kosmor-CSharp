@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KosmorNewsParser", "KosmorN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvgToCsvConverter", "SvgToCsvConverter\SvgToCsvConverter.csproj", "{8A26B43F-A107-4177-97CF-BA54043FB9CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KosmorHPFinder", "KosmorHPFinder\KosmorHPFinder.csproj", "{C3E4FF70-4695-496A-B7FE-83CF856D388A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -39,6 +41,10 @@ Global
 		{8A26B43F-A107-4177-97CF-BA54043FB9CC}.Debug|x86.Build.0 = Debug|x86
 		{8A26B43F-A107-4177-97CF-BA54043FB9CC}.Release|x86.ActiveCfg = Release|x86
 		{8A26B43F-A107-4177-97CF-BA54043FB9CC}.Release|x86.Build.0 = Release|x86
+		{C3E4FF70-4695-496A-B7FE-83CF856D388A}.Debug|x86.ActiveCfg = Debug|x86
+		{C3E4FF70-4695-496A-B7FE-83CF856D388A}.Debug|x86.Build.0 = Debug|x86
+		{C3E4FF70-4695-496A-B7FE-83CF856D388A}.Release|x86.ActiveCfg = Release|x86
+		{C3E4FF70-4695-496A-B7FE-83CF856D388A}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
